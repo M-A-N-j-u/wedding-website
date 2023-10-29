@@ -1,0 +1,600 @@
+*{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.main-container{
+    margin-bottom: 0;
+    
+}
+
+html{
+    scroll-behavior:smooth;
+}
+.hov1{
+    margin-left: 0px;
+}
+
+#books{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 0px;
+}
+
+
+
+.logo{
+   
+   margin-left: 250px;
+   display: inline;
+   
+}
+ul{
+    display: flex;
+   list-style: none;
+   /* margin-left: 150px; */
+
+}
+a{
+   text-decoration: none;
+   justify-content: space-between;
+   font-weight: bold;
+   color:navy;
+}
+
+a:hover{
+    color: rgb(9, 9, 9);
+}
+li{
+    margin-right: 50px;
+}
+img{
+    margin-left: 220px;
+}
+.quote{
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+.quote>p{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: black;
+    margin-left:40px ;
+    margin-right: 40px;
+  
+}
+.sign>img{
+  margin-left: 550px;
+
+}
+.col>img{
+    width: 70%;
+    height: 250px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+.row{
+    display: flex;
+   justify-content: space-evenly;
+
+}
+.row>col{
+    justify-content: center;
+    margin-right: 10px;
+   
+}
+.col>h4,p{
+    text-align: center;
+  
+}
+
+.col>h4{
+    color: brown;
+
+    font-family: 'Kalam', cursive;
+}
+.col1>h4{
+    margin-left: 85px;
+}
+/* .row1{
+    display: flex;
+} */
+#sub-head{
+    text-align: center;
+    color: brown;
+    margin-top: 120px;
+    margin-left: -50px;
+}
+/* .col1>img>h5{
+   text-align: center;
+   margin-left: 100px;
+} */
+.col1>img{
+    width: 100%;
+    text-align: center;
+    margin-left: 60px;
+    
+}
+.row1{
+    width: 10%;
+    display: flex;
+   justify-content: space-evenly;
+   margin-top: 60px;
+   margin-left: 470px;
+
+}
+.row1>.col1{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    margin-right: 15px;
+   
+}
+
+.h4{
+    
+     text-align: center; 
+    margin-left: 20px;
+   
+    
+}
+
+.col>p{
+    font-family: 'Satisfy', cursive;
+}
+/* .images{
+    margin-top: 100px;
+} */
+
+/* .images>img {
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+} */
+
+/* .images:hover .back-pink.avif {
+    bottom: 80px;
+} */
+
+/* .images:hover .weds1-removebg-preview {
+    left: 40%;
+}  */
+
+/* .images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1, .img2 {
+    width: 150px; /* Adjust the size as needed */
+    /* height: auto; */
+     /* Maintain aspect ratio */
+    /* transition: opacity 0.3s ease; */
+     /* Add a smooth transition effect */
+
+
+/* .img1:hover, .img2:hover {
+    opacity: 0.7;  */
+    /* Reduce opacity when hovering */
+    .image-container {
+         margin-left:200px; 
+         position: relative; 
+         width: 350px; 
+        height: 500px; 
+        margin-top: 60px; 
+      
+    }
+    
+    .img1, .img2 {
+         position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%; 
+        height: 100%; 
+        transition: transform 0.5s ease; 
+    }
+    
+    .img2 {
+        opacity: 0.5; /* Initially, hide the second image */
+    }
+    
+    .image-container:hover .img2 {
+        opacity: 1; /* Show the second image on hover */
+    }
+    .image-container:hover .img1 {
+        transform: translate(20px, 20px); /* Move img1 diagonally on hover */
+    }
+    
+    .image-container:hover .img2 {
+        transform: translate(-20px, -20px); /* Move img2 diagonally on hover */
+        opacity: 1; /* Show the second image on hover */
+    }
+
+
+
+     /* footer{
+        
+        height: 200px;
+        width: 100%;
+      
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+    } */
+    
+    /* Base styles for the footer */
+ /* footer {
+    background-color: #f9f5f5;
+    color: #131111;
+     padding: 20px; 
+}
+
+.roww {
+    display: flex;
+     justify-content: space-between; 
+}
+
+.coll {
+    flex:1;
+    text-align: center;
+}  */
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .roww {
+        flex-direction: column;
+    }
+
+    .coll {
+        margin-bottom: 20px;
+    }
+}
+
+/* Additional responsive styles can be added based on your design needs */
+
+    
+    #comment{
+        display: flex;
+        text-decoration: none;
+        background-color:rgb(51, 97, 51);
+        color: white;
+        padding: 10px;
+        border-radius: 30px;
+        margin-left: 50px;
+        margin-top: -30px;
+        margin-right: 19px;
+    }
+    #twitter{
+        display: flex;
+        text-decoration: none;
+        background-color:white;
+        color: rgb(37, 35, 157);
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: -9px;
+        margin-right: 19px;
+    }
+
+    #facebook{
+        display: flex;
+        text-decoration: none;
+        background-color:white;
+        color: rgb(37, 35, 157);
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: -9px;
+        margin-right: 19px;
+       
+    }
+
+
+    #whatsapp{
+        display: flex;
+        text-decoration: none;
+        background-color:white;
+        color: rgb(27, 230, 47);
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: -9px;
+        margin-right: 19px;
+    }
+
+
+
+    #instagram{
+        display: flex;
+        text-decoration: none;
+        background-color:white;
+        color: rgb(210, 42, 101);
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: -9px;
+        margin-right: 19px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+        /* align-items: center;
+        margin-left: -25px; */  
+    }
+
+    
+    /* #twitter{
+        display: flex;
+        text-decoration: none;
+        background-color: rgb(54, 51, 227);
+        color: white;
+        padding: 2px;
+        border-radius: 5px;
+        margin-left: 6px;
+        margin-top: -30px;
+        margin-right: 19px;
+    }
+    #rc{
+        align-items: center; 
+        margin-top: -300px;
+        margin-left:520px;
+    }
+    .down{
+        text-align: center;
+    } */
+    /* .row2{
+        width: 100%;
+        height: 180px;
+        display: grid;
+        grid-template-columns: repeat(5,0.5fr);
+        justify-content: center;
+        align-items: center;
+       
+    
+    }
+    .col2{
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        text-align: left;
+        margin-top: 60px;
+        justify-content: space-between;
+        
+    
+    } */
+    a{
+        text-decoration: none;
+        color:brown;
+        margin-top: 5px;
+    }
+    .blu{
+        
+        color: brown;
+    }
+    
+    
+
+
+@media (max-width:600px) {
+    .main-container {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .logo{
+        width: 70%;
+        margin-left: 15px;
+       }
+
+       #books{
+        margin-top: -3px;
+       }
+
+       .second-part>img{
+        width: 100%;
+        margin-left: 10px;
+
+       }
+
+       .image-container>img{
+        width: 100%;
+        margin-left: -208px;
+       }
+
+       .sign{
+        width: 100%;
+        margin-left: -400px;
+        
+       }
+
+       .row1{
+        width: 20%;
+       
+         margin-left: 60px; 
+       
+       }
+       .col1{
+        width: 30%;
+       margin-left: 5px;
+       }
+       .col1>img{
+        width: 50%;
+        height: 30px;
+        /* padding-right:2px; */
+        
+       }
+       .col1>h4{
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin-left: 50px;
+        font-size: 10px;
+       }
+       section{
+        margin-left: 10px;
+       }
+}
+
+@media (min-width:375px) {
+    p {
+        font-size: 15px;
+        line-height: 1.5;
+        color: rgb(7, 7, 7);
+    }
+    .main-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+  
+
+    
+} 
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  margin-left: 160px;
+  
+}
+
+
+
+
+.menu{
+    display: flex;
+    gap: 1rem;
+    font-size: 18px;
+   
+}
+.menu li:hover{
+    /* background-color: #4c9e9e; */
+    border-radius: 5px;
+    transition: 0.3s ease;
+    color: black;
+}
+.menu li{
+    padding: 5px 14px;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+.hamburger{
+    display: none;
+    font-size:24px;
+    user-select: none;
+}
+/* .logo{
+    font-size: 30px;
+    color: rgb(204, 69, 109);
+} */
+
+@media (max-width: 600px){
+    .menu{
+        display: none;
+        position: absolute;
+        background-color: rgb(195, 157, 145);
+        right: 0px;
+        left: 200px;
+        text-align: center;
+        padding: 8px 0; 
+       
+       
+    }
+    .menu li:hover{
+        display: inline-block;
+        background-color: #c7cccc;
+        transition: 0.3s ease;
+    }
+    .menu li+li{
+        margin-top: 12px;
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    /* .hamburger{
+        display: block;
+      
+    } */
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 193px; /* Adjust as needed to vertically center the icon */
+        right: 25px; /* Adjust this value to position the icon on the right */
+        /* Additional styling for the hamburger icon, e.g., icon background, padding, etc. */
+    }
+}
+
+.sign>img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 470px;
+}
+.img1,.img2 {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+   
+}
+body {
+    font-family: 'Roboto', sans-serif; /* Choose an appropriate font */
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [section] {
+      width: 100%;
+    }
+  }
+
+  #contact{
+    font-size: 22px;
+    font-weight: bold;
+    color:brown ;
+    margin-left: -20px;
+    margin-top: 100px;
+    
+    
+    
+  }
+ 
+
